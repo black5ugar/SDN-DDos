@@ -10,7 +10,7 @@
 5. tensorflow、numpy、pandas、matplotlib：`pip install tensorflow==1.14 numpy pandas matplotlib`
 
 也可以使用我们的脚本：preinstall.sh  
-`$ chmod +x preinstall.sh
+`$ chmod +x preinstall.sh  
 $ ./preinstall.sh`
 
 
