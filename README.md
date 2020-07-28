@@ -10,15 +10,15 @@
 5. tensorflow、numpy、pandas、matplotlib：`pip install tensorflow==1.14 numpy pandas matplotlib`
 
 也可以使用我们的脚本：preinstall.sh  
-`$ chmod +x preinstall.sh  
-$ ./preinstall.sh`
+```$ chmod +x preinstall.sh
+$ ./preinstall.sh```
 
 
 
 ## 演示流程
 1. 启动POX控制器: `$ ./pox.py openflow.of_01 --address=127.0.0.1 --port=8877 pox.forwarding.l2_learning` 
 
-2. 使用mininet建立topo: `$ sudo mn --custom sdntopo.py --topo mytopo --controller=remote,ip=127.0.0.1,p    ort=8877 --switch ovsk,protocols=OpenFlow10`
+2. 使用mininet建立topo: `$ sudo mn --custom sdntopo.py --topo mytopo --controller=remote,ip=127.0.0.1,port=8877 --switch ovsk,protocols=OpenFlow10`
 
 3. pingall 测试联通性：`pingall`
 
