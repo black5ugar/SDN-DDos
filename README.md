@@ -30,4 +30,4 @@ $ ./preinstall.sh
 
 ## Result
 if 'machine is under attack' appears in the terminal, it means that a DDos attack has been successfully detected.
-![DDossucces] (./DDos检测.png)
+![DDossucces] (./DDOS检测.png)
