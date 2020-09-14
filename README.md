@@ -1,5 +1,6 @@
 # SDN-DDos
-this project is based on DDos attack detection combined with machine learning in the SDN environment, which can detect whether the current host is attacked by DDos.  
+this project is based on DDos attack detection combined with machine learning in the SDN environment,
+which can detect whether the current host is attacked by DDos.  
 created by: team-Neko USTB
 
 
@@ -19,7 +20,7 @@ $ chmod +x preinstall.sh
 $ ./preinstall.sh
 ```
 
-## Demo process
+## Demo 
 
 1. start the POX controller:`$ ./pox.py openflow.of_01 --address=127.0.0.1 --port=8877 pox.forwarding.l2_learning` 
 2. use mininet to build topology: `$ sudo mn --custom sdntopo.py --topo mytopo --controller=remote,ip=127.0.0.1,port=8877 --switch ovsk,protocols=OpenFlow10`
