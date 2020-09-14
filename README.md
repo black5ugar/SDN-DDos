@@ -1,4 +1,4 @@
-# README
+# SDN-DDos
 this project is based on DDos attack detection combined with machine learning in the SDN environment, which can detect whether the current host is attacked by DDos.  
 created by: team-Neko USTB
 
